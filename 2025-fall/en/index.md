@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web Design 2025 · Fall
+title: ADVANCED WEB DESIGN 2025 · Fall
 lang: en
 term: 2025-fall
 ---
