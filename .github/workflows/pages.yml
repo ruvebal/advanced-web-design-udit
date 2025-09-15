@@ -73,6 +73,9 @@ jobs:
       fi
      env:
       JEKYLL_ENV: production
+      # Provide repo context and token for jekyll-github-metadata
+      PAGES_REPO_NWO: ${{ github.repository }}
+      JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
    - name: Setup Node (checks)
      uses: actions/setup-node@v4
