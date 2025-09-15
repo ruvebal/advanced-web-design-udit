@@ -48,3 +48,5 @@ Canonical lessons are located in [Web Foundations]({{ site.data.courses[page.ter
 - [ATELIER Methodology]({{ site.data.courses[page.term].en.canonical_lessons_base }}/methodology/en/)
 - [Templates & Examples]({{ site.data.courses[page.term].en.canonical_lessons_base }}/templates/)
 - [GitHub Classroom](https://classroom.github.com/) (specific link TBD)
+
+## EOF--
