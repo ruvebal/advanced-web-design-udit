@@ -7,25 +7,25 @@ term: 2025-fall
 
 # {{ page.title }}
 
-**University:** {{ site.data.courses[page.term].en.university }}  
-**Professor:** Rubén Vega Balbás, PhD  
-**Methodology:** _Critical Coding for a Better Living_
+**Universidad:** {{ site.data.courses[page.term].es.university }}  
+**Profesor:** Rubén Vega Balbás, PhD  
+**Metodología:** _Critical Coding for a Better Living_
 
-## Welcome
+## Bienvenida
 
-This is the course site for **{{ site.data.courses[page.term].en.course_name }}** for {{ site.data.courses[page.term].en.term }}. Here you'll find:
+Este es el sitio del curso de **{{ site.data.courses[page.term].es.course_name }}** para el semestre {{ site.data.courses[page.term].es.term }}. Aquí encontrarás:
 
-- Links to canonical lessons
-- Student project showroom
-- Schedule and important deliverables
+- Enlaces a las lecciones canónicas
+- El showroom de proyectos estudiantiles
+- Calendario y entregas importantes
 
-## Lessons
+## Lecciones
 
-Canonical lessons are located in [Web Foundations]({{ site.data.courses[page.term].en.canonical_lessons_base }}).
+Las lecciones canónicas se encuentran en [Web Foundations]({{ site.data.courses[page.term].es.canonical_lessons_base }}).
 
-{% comment %} Auto-generated from \_data/lessons/{{ page.term }}/en.yml {% endcomment %}
-{% assign lessons = site.data.lessons[page.term].en %}
-{% assign canon = site.data.courses[page.term].en.canonical_lessons_base %}
+{% comment %} Auto-generated from \_data/lessons/{{ page.term }}/es.yml {% endcomment %}
+{% assign lessons = site.data.lessons[page.term].es %}
+{% assign canon = site.data.courses[page.term].es.canonical_lessons_base %}
 {% if lessons %}
 {% for l in lessons %}
 
@@ -38,17 +38,17 @@ Canonical lessons are located in [Web Foundations]({{ site.data.courses[page.ter
 ## Student Projects
 
 {% comment %} Student showroom will be generated here {% endcomment %}
-{% include students-list-by-files.html lang='en' term='2025-fall' %}
+{% include students-list-by-files.html lang='es' term='2025-fall' %}
 
-## Important Deliverables
+## Entregas Importantes
 
-- **Week 2:** Project brief
-- **Week 4:** Project metadata
-- **Week 5:** Showroom launch
-- **Week 12:** Final presentation
+- **Semana 2:** Brief de proyecto
+- **Semana 4:** Metadatos del proyecto
+- **Semana 5:** Lanzamiento del showroom
+- **Semana 12:** Presentación final
 
-## Resources
+## Recursos
 
-- [ATELIER Methodology](https://ruvebal.github.io/web-atelier-udit/methodology/en/)
-- [Templates & Examples](https://github.com/ruvebal/web-atelier-udit)
+- [Metodología ATELIER](https://ruvebal.github.io/web-atelier-udit/methodology/en/)
+- [Plantillas y Ejemplos](https://github.com/ruvebal/web-atelier-udit)
 - [GitHub Classroom](https://classroom.github.com/) (specific link TBD)
