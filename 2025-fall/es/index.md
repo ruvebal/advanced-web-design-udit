@@ -35,7 +35,7 @@ Las lecciones canónicas se encuentran en [Web Foundations]({{ site.data.courses
 - Lessons coming soon.
   {% endif %}
 
-## Student Projects
+## Proyectos Estudiantiles
 
 {% comment %} Student showroom will be generated here {% endcomment %}
 {% include students-list-by-files.html lang='es' term='2025-fall' %}
@@ -49,6 +49,6 @@ Las lecciones canónicas se encuentran en [Web Foundations]({{ site.data.courses
 
 ## Recursos
 
-- [Metodología ATELIER](https://ruvebal.github.io/web-atelier-udit/methodology/en/)
+- [Metodología ATELIER](https://ruvebal.github.io/web-atelier-udit/methodology/es/)
 - [Plantillas y Ejemplos](https://github.com/ruvebal/web-atelier-udit)
-- [GitHub Classroom](https://classroom.github.com/) (specific link TBD)
+- [GitHub Classroom](https://classroom.github.com/) (enlace específico por confirmar)
