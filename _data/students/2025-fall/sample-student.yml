@@ -1,12 +1,12 @@
 # Sample student entry - copy this template for each student
 # Filename should match student's GitHub username: {username}.yml
 
-handle: sample-student
-name: Sample Student Name
-email: student@udit.es
-github_url: https://github.com/sample-student
-project_url: https://sample-student.github.io/web-project-2025
-repository_url: https://github.com/sample-student/web-project-2025
+handle: DianaVaquerizo
+name: Diana Vaquerizo
+email: diana.vaquerizo@akumnos.udit.es
+github_url: https://github.com/DianaVaquerizo
+project_url: https://dianavaquerizo.github.io/WEB-DESIGN-2/
+repository_url: https://github.com/DianaVaquerizo/WEB-DESIGN-2
 
 # Project metadata (filled by student in Week 4)
 title:
