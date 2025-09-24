@@ -1,10 +1,10 @@
 # Sample student entry - copy this template for each student
 # Filename should match student's GitHub username: {username}.yml
 
-handle: sample-student
-name: Sample Student Name
-email: student@udit.es
-github_url: https://github.com/sample-student
+handle: irene-sanchez
+name: Irene Sanchez Sara
+email: irene.sanchez@alumnos.udit.es
+github_url: https://github.com/irenesansa
 project_url: https://irenesansa.github.io/advanced-web-design/
 repository_url: https://github.com/irenesansa/advanced-web-design
 
