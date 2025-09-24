@@ -1,1 +1,32 @@
+/* Imágenes alineadas en fila y de igual tamaño */
+.image-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	min-height: 60vh;
+}
+
+.image-row img {
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+/* Imagen centrada y tamaño mediano */
+.center-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 60vh;
+}
+
+.center-image img {
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	border-radius: 12px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
 @import 'https://ruvebal.github.io/web-atelier-udit/assets/css/site.css';
