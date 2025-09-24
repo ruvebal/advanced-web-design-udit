@@ -1,0 +1,30 @@
+# Sample student entry - copy this template for each student
+# Filename should match student's GitHub username: {username}.yml
+
+handle: aimar-moreno
+name: Aimar Moreno
+email: aimar.moreno@alumnos.udit.es
+github_url: https://github.com/aimrx
+project_url: file:///Users/aimarmoreno/Desktop/Web/advanced-web-design-udit/advanced-we-design-udit/index.html
+repository_url: https://github.com/aimrx/advanced-we-design-udit
+
+
+# Project metadata (filled by student in Week 4)
+title:
+ es: Mi Proyecto Web
+ en: My Web Project
+
+abstract:
+ es: Una breve descripción del proyecto en español
+ en: A brief description of the project in English
+
+# Optional metadata
+tags:
+ - html
+ - css
+ - accessibility
+
+# Submission tracking
+submitted_brief: false
+submitted_metadata: false
+peer_review_completed: false
