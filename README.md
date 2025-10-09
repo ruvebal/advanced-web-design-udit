@@ -14,7 +14,7 @@ Use this to start a course (Template Mode). Do **not** fork `web-foundations`.
 
 © 2025 Rubén Vega Balbás, PhD — WEB ATELIER (UDIT)
 
-[https://ruvebal.github.io/advanced-web-design-udit/]
+[https://ruvebal.github.io/advanced-web-design-udit/](https://ruvebal.github.io/advanced-web-design-udit/)
 
 ## Summary
 
