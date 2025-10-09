@@ -14,6 +14,8 @@ Use this to start a course (Template Mode). Do **not** fork `web-foundations`.
 
 © 2025 Rubén Vega Balbás, PhD — WEB ATELIER (UDIT)
 
+[https://ruvebal.github.io/advanced-web-design-udit/]
+
 ## Summary
 
 **Web Foundations** is the central repository of the WEB ATELIER (UDIT) initiative, which provides the core content and pedagogical framework for a modern web design course. It embodies a **project-based, one-commit-per-class** approach to teaching front-end web development, emphasizing continuous practice and critical reflection. Every student builds a personal website project incrementally, committing changes after each class. This methodology – guided by the motto **“One student, one repository, one project”** – encourages active learning and ethical, human-centered coding (“Critical Coding for a Better Living”).
