@@ -1,56 +1,127 @@
-<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
-<html lang="en"> <!-- Root element with language attribute for accessibility and SEO -->
-<head>
-    <meta charset="UTF-8"> <!-- Sets character encoding for proper text display -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on all devices -->
-    <title>Advanced Web Design UDIT</title> <!-- Title shown in browser tab -->
-    <link rel="stylesheet" href="./assets/css/index.css"> <!-- Links external CSS for styling -->
+<!DOCTYPE html>
+<!-- Declares the document type and version of HTML -->
+<html lang="en">
+  <!-- Root element with language attribute for accessibility and SEO -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Sets character encoding for proper text display -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures responsive design on all devices -->
+    <title>Advanced Web Design UDIT</title>
+    <!-- Title shown in browser tab -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <!---->
+    <!-- licencias -->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
     <link rel="license" href="LICENSE-CODE" />
     <link rel="license" href="LICENSE-CONTENT" />
-</head>
-<body>
-          <!-- Header section: Contains site title and navigation menu --> <header>
-        <h1>Welcome to Advanced Web Design</h1> <!-- Main heading for the homepage -->
-        <nav>
-     <!-- Navigation menu for site pages -->
-            <ul>
-        <li><a href="index.html">Home</a></li> <!-- Link to homepage -->
-                <li><a href="about.html">About</a></li> <!-- Link to about page -->
-        <li><a href="projects.html">Projects</a></li> <!-- Link to projects page -->
-                <li><a href="contact.html">Contact</a></li> <!-- Link to contact page -->
-            </ul>
-        </nav>
+    <!---->
+    <!-- iconos -->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/icons/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/icons/apple-touch-icon.png"
+    />
+    <!---->
+    <!-- tipografías -->
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--mANIFEST-->
+    <link rel="manifest" href="./manifest.json" />
+  </head>
+  <body>
+    <!-- Header section: Contains site title and navigation menu -->
+    <header>
+      <h1>Welcome to Advanced Web Design</h1>
+      <!-- Main heading for the homepage -->
+      <nav class="poppins-black-italic">
+        <!-- Navigation menu for site pages -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <!-- Link to homepage -->
+          <li><a href="about.html">About</a></li>
+          <!-- Link to about page -->
+          <li><a href="projects.html">Projects</a></li>
+          <!-- Link to projects page -->
+          <li><a href="contact.html">Contact</a></li>
+          <!-- Link to contact page -->
+        </ul>
+      </nav>
     </header>
     <main>
-        <!-- Imagen centrada -->
-        <div class="image-row">
-            <img src="https://ik.imagekit.io/martin1/sjvnpdjnvpf.jpg?updatedAt=1758202640274" alt="Imagen centrada" />
-            <img src="https://ik.imagekit.io/martin1/jvvna%C3%B1avnapovnsvsa.jpg?updatedAt=1758203017927" alt="Imagen centrada 2" />
-        </div>
-        </div>
-        <!-- First section: Course introduction -->
-        <section>
-            <h2>Learn Modern Web Design</h2> <!-- Section heading -->
-            <p>
-                <!-- Brief description of the course content -->
-                Explore advanced techniques and best practices in web design. 
-                This course covers HTML5, CSS3, JavaScript, responsive layouts, and more.
-            </p>
-            <a href="about.html" class="button">Learn More</a> <!-- Call-to-action button -->
-        </section>
-        <!-- Second section: Featured projects list -->
-        <section>
-            <h2>Featured Projects</h2> <!-- Section heading -->
-            <ul>
-                <li>Responsive Portfolio Website</li> <!-- Example project -->
-                <li>Interactive UI Components</li> <!-- Example project -->
-                <li>Accessibility Best Practices</li> <!-- Example project -->
-            </ul>
-        </section>
+      <!-- Imagen centrada -->
+      <div class="image-row">
+        <img
+          src="https://ik.imagekit.io/martin1/sjvnpdjnvpf.jpg?updatedAt=1758202640274"
+          alt="Imagen centrada"
+        />
+        <img
+          src="https://ik.imagekit.io/martin1/jvvna%C3%B1avnapovnsvsa.jpg?updatedAt=1758203017927"
+          alt="Imagen centrada 2"
+        />
+      </div>
+
+      <!-- First section: Course introduction -->
+      <section>
+        <h2>Learn Modern Web Design</h2>
+        <!-- Section heading -->
+        <p>
+          <!-- Brief description of the course content -->
+          Explore advanced techniques and best practices in web design. This
+          course covers HTML5, CSS3, JavaScript, responsive layouts, and more.
+        </p>
+        <a href="about.html" class="button">Learn More</a>
+        <!-- Call-to-action button -->
+      </section>
+      <!-- Second section: Featured projects list -->
+      <section>
+        <h2>Featured Projects</h2>
+        <!-- Section heading -->
+        <ul>
+          <li>Responsive Portfolio Website</li>
+          <!-- Example project -->
+          <li>Interactive UI Components</li>
+          <!-- Example project -->
+          <li>Accessibility Best Practices</li>
+          <!-- Example project -->
+        </ul>
+      </section>
     </main>
     <!-- Footer section: Copyright and site info -->
     <footer>
-        <p>&copy; 2025 Advanced Web Design UDIT. All rights reserved.</p> <!-- Copyright -->
+      <p>&copy; 2025 Advanced Web Design UDIT. All rights reserved.</p>
+      <!-- Copyright -->
     </footer>
-</body>
+  </body>
 </html>
