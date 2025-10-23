@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Diseño Web 2025 · Otoño
+title: Diseño Web Avanzado 2025 · Otoño
 lang: es
 term: 2025-fall
 ---

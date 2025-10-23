@@ -1,5 +1,5 @@
-/*reset missing */
-@import url("types.css");
-@import url("site.css");
-
-@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+/* The barrel index file */
+/*@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");*/
+@import url('reset.css');
+@import url('types.css');
+@import url('site.css');
